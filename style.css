@@ -1,0 +1,205 @@
+
+body {
+    background: #f5f5f5;;
+}
+
+body .icon {
+    fill: #fff;
+}
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+}
+
+main {
+    padding: 60px;
+}
+
+main .title {
+    display: flex;
+    align-items: center;
+
+}
+
+.title > .pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #36869A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title > span {
+    color: #36869A;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+main > div {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+main {
+    background: #ffffff;
+    flex: 1;
+}
+
+main > .personInfo > p {
+    margin: 15px 0;
+    line-height: 2;
+    color: #545E6C;;
+    font-size: 14px;
+
+}
+
+main >.works{
+    margin-top: 30px;
+    border-bottom: none;
+}
+main>.works>.item{
+    position: relative;
+    padding-top:30px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+}
+main>.works>.item>.workDescription{
+    margin-top: 10px;
+    color: #545E6C;
+    font-size: 14px;
+}
+main>.works>.item>.workDescription>a{
+    color: deeppink;
+}
+main>.works>.item>.workName{
+    color: #2d7788;
+    font-size:16px;
+    font-weight:400;
+}
+main>.works>.item>.workPic,.workPic2,.workPic3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+main>.works>.item>.workPic2 img{
+    width: 300px;
+}
+
+main>.works>.item>.workPic img{
+    width: 200px;
+}
+main>.works>.item >.workSkills{
+    display: inline-block;
+    margin-top: 20px;
+    color: #2E7788;
+}
+
+main>.works>.item >.link{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+main>.works>.item >.link>a{
+    color: #a5a7aa;
+    line-height: 30px;
+    padding: 0 11px;
+    min-width: 70px;
+    height: 32px;
+    border-radius: 3px;
+    background: white;
+    border: 1px solid #D5D6D8;
+    margin: 4px 0 4px 5px;
+}
+.skillInfo>li{
+    list-style: circle;
+    margin: 1rem 0;
+    line-height: 2rem;
+    font-size: 16px;
+    color: #545E6C;
+}
+.heightlight{
+    color: #2196f3;
+    ont-weight: 400;
+    background: #EEEEEE;
+    margin: 2px;
+    border: 1px solid #cfd8dc;
+    border-radius: 3px;
+}
+.aside {
+    background: #42A8C0;
+    min-width: 240px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+
+}
+
+.aside h3 {
+    font-size: 16px;
+}
+
+.aside p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+}
+
+.aside h3 {
+    font-size: 16px;
+}
+
+.aside a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.aside > header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #36869A;
+    width: 180px;
+    height: 82px;
+    padding: 30px;
+    text-align: center;
+}
+
+.aside > header > h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.aside > header > p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.aside > .info {
+    padding: 30px;
+}
+
+.aside > .info > li {
+    margin-bottom: 15px;
+}
+
+.aside > div {
+    padding: 30px;
+}
+
