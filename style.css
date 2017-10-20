@@ -52,19 +52,19 @@ main {
 
 main > .personInfo > p {
     margin: 15px 0;
-    line-height: 2;
+    line-height: 1.5;
     color: #545E6C;;
     font-size: 14px;
 
 }
 
 main >.works{
-    margin-top: 30px;
+    margin-top: 20px;
     border-bottom: none;
 }
 main>.works>.item{
     position: relative;
-    padding-top:30px;
+    padding-top:20px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 20px;
 }
@@ -88,11 +88,11 @@ main>.works>.item>.workPic,.workPic2,.workPic3{
     margin-top: 30px;
 }
 main>.works>.item>.workPic2 img{
-    width: 300px;
+    width: 200px;
 }
 
 main>.works>.item>.workPic img{
-    width: 200px;
+    width: 150px;
 }
 main>.works>.item >.workSkills{
     display: inline-block;
@@ -122,8 +122,8 @@ main>.works>.item >.link>a{
 }
 .skillInfo>li{
     list-style: circle;
-    margin: 1rem 0;
-    line-height: 2rem;
+    margin: 5px 0;
+    line-height: 30px;
     font-size: 16px;
     color: #545E6C;
 }
@@ -200,6 +200,6 @@ main>.works>.item >.link>a{
 }
 
 .aside > div {
-    padding: 30px;
+    padding: 20px;
 }
 
